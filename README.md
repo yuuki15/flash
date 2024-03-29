@@ -1,5 +1,3 @@
-# [Yuuki's Scratch Site](https://yuukiarchives.github.io/scratch/)
+# [Flash Add Game](https://yuukikonno.com/flash/)
 
 [Mint](https://min.togetter.com/pHYSPky)
-
-This is an archive of [@yuuki29](https://scratch.mit.edu/users/yuuki29/)'s Scratch projects.
