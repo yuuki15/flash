@@ -1,31 +1,24 @@
-#!/usr/bin/env perl
-use strict;
-use warnings;
-use Time::HiRes qw(sleep);
+import random
+import time
 
-$| = 1;
+correct_answer = 0
 
-my $correct_answer = 0;
+for i in range(10):
+    number = random.randint(1, 9)
 
-for (1 .. 10) {
-    my $number = 1 + int(rand(9));
+    print(f"\r\a{number}", end="")
+    time.sleep(0.3)
 
-    print "\r$number\a";
-    sleep 0.3;
+    print("\r", end="")
+    time.sleep(0.2)
 
-    print "\r";
-    sleep 0.2;
+    correct_answer += number
 
-    $correct_answer += $number;
-}
+print("\rSum?")
 
-print "\rSum?\n";
-my $answer = <>;
-chomp $answer;
+answer = input()
 
-if ($answer == $correct_answer) {
-    print "Correct\n";
-}
-else {
-    print "$correct_answer\n";
-}
+if int(answer) == correct_answer:
+    print("Correct")
+else:
+    print(correct_answer)
