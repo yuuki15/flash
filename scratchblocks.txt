@@ -1,7 +1,7 @@
 when @greenFlag clicked
 count down [3]::custom
 wait (0.5) seconds
-flash numbers [10]::custom
+flash [10]::custom
 ask [Sum?] and wait
 if <(answer) = (correct answer)> then
     say [Lovely!]
@@ -17,16 +17,12 @@ repeat (number of times::custom)
     change [count v] by (-1)
 end
 
-define flash numbers (number of times)
+define flash (number of times)
 set [correct answer v] to [0]
 repeat (number of times::custom)
     set [number v] to (pick random (1) to (9))
     start sound [Pop v]
-    flash (number) for [0.5] seconds::custom
+    say (number) for (0.3) seconds
+    say [] for (0.2) seconds
     change [correct answer v] by (number)
 end
-
-define flash (message) for (amount of time) seconds
-set [INTERVAL v] to [0.2]
-say (message::custom) for ((amount of time::custom) - (INTERVAL)) seconds
-say [] for (INTERVAL) seconds
