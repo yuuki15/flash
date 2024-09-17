@@ -7,10 +7,10 @@ for i in range(10):
     number = random.randint(1, 9)
 
     print(f"\r\a{number}", end="")
-    time.sleep(0.3)
+    time.sleep(0.5)
 
-    print("\r", end="")
-    time.sleep(0.2)
+    print("\r ", end="")
+    time.sleep(0.1)
 
     correct_answer += number
 
@@ -18,7 +18,7 @@ print("\rSum?")
 
 answer = input()
 
-if int(answer) == correct_answer:
+if answer == str(correct_answer):
     print("Correct")
 else:
     print(correct_answer)
