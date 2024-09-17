@@ -4,4 +4,6 @@
 
 Add 10 numbers quickly!
 
-![](scratchblocks.svg)
+<picture>
+  <img src="scratchblocks.svg">
+</picture>
