@@ -2,7 +2,7 @@
 
 [Scratch](https://scratch.mit.edu/projects/930715752/) [TurboWarp](https://turbowarp.org/930715752)
 
-Add 10 numbers quickly!
+Add 10 flashing numbers!
 
 <picture>
   <img src="scratchblocks.svg">
