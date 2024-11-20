@@ -5,5 +5,5 @@
 Add 10 flashing numbers!
 
 <picture>
-  <img src="https://github.com/yuuki15/flash/raw/main/scratch/scratchblocks.svg">
+  <img src="scratch/scratchblocks.svg">
 </picture>
