@@ -1,4 +1,4 @@
-# [Flash Add Game](https://yuukikonno.com/flash/)
+# [Flash Add Game フラッシュ暗算](https://yuukikonno.com/flash/)
 
 [Scratch](https://scratch.mit.edu/projects/930715752/) [TurboWarp](https://turbowarp.org/930715752)
 
