@@ -9,7 +9,7 @@ correct_answer: int = 0
 for _ in range(10):
     number: int = random.randint(1, 9)
 
-    # Prints number with beep, overwriting previous.
+    # Prints number with beep.
     print(f"\r\a{number}", end="")
     time.sleep(0.5)
 
