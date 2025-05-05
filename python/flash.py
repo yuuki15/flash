@@ -21,9 +21,9 @@ for _ in range(10):
 
 # Gets user's answer.
 try:
-    user_answer: str = input("\rSum?\n")
+    answer: str = input("\rSum?\n")
 
-    if int(user_answer) == correct_answer:
+    if int(answer) == correct_answer:
         print("Correct")
     else:
         print(correct_answer)
